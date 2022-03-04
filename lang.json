@@ -1,0 +1,741 @@
+{
+  "langs": [
+    "isv",
+    "en",
+    "cs",
+    "ua"
+  ],
+  "translations": {
+    "uptime": {
+      "isv": {
+        "_1": "Bot rabotaje uže",
+        "_2": "časin,",
+        "_3": "minut,",
+        "_4": "sekund."
+      },
+      "en": {
+        "_1": "The bot's been online for",
+        "_2": "hours,",
+        "_3": "minutes,",
+        "_4": "seconds already."
+      },
+      "cs": {
+        "_1": "Bot je online už",
+        "_2": "hodin,",
+        "_3": "minut,",
+        "_4": "sekund."
+      },
+      "ua": {
+        "_1": "Бот працює вже",
+        "_2": "годин,",
+        "_3": "хвилин,",
+        "_4": "секунд."
+      }
+    },
+    "translationError": {
+      "isv": "**Problem**  s lokalizacijeju teksta v tutom prikazu! *(Poslju developeru report)*",
+      "en": "**An error** occured with text localisation in this command! *(Sending a report to the dev)*",
+      "cs": "Nastal **problém** s lokalizací textu v tomto příkazu! *(Posílám hlášení developerovi)*",
+      "ua": "Трапилася **помилка** з локалізацією тексту в цій команді *(Відсилаю звіт розробникові)*"
+    },
+    "unknownTextId": {
+      "en": "Unknown language ID",
+      "cs": "Neznámé ID jazyka",
+      "isv": "Neznajemo jezykovo ID",
+      "ua": "Незнайомий ID мови"
+    },
+    "expiredBan": {
+      "en": "The ban has expired",
+      "cs": "Ban skončil",
+      "isv": "Ban je byl ukončeny",
+      "ua":  "Скінчився термін блокування"
+    },
+    "setLang": {
+      "en": {
+        "languageNotSupported": {
+          "_1": "Language",
+          "_2": "is not supported. Supported languages:"
+        },
+        "languageSet": {
+          "_1": "Language for the server",
+          "_2": "is set to"
+        }
+      },
+      "cs": {
+        "languageNotSupported": {
+          "_1": "Jazyk",
+          "_2": "není podporován. Podporované jazyky:"
+        },
+        "languageSet": {
+          "_1": "Jazyk serveru",
+          "_2": "je nastaven na"
+        }
+      },
+      "isv": {
+        "languageNotSupported": {
+          "_1": "Jezyk",
+          "_2": "ne jest podporovany. Podporovane jezyky:"
+        },
+        "languageSet": {
+          "_1": "Jezyk servera",
+          "_2": "jest nastavjeny na"
+        }
+      },
+      "ua": {
+        "languageNotSupported": {
+          "_1": "Мова",
+          "_2": "не підтримується. Пропоновані мови:"
+        },
+        "languageSet": {
+          "_1": "Мова серверу",
+          "_2": "налаштована на"
+        }
+      }
+    },
+    "warn": {
+      "en": {
+        "usage": "Usage: ,warn",
+        "botWarned": "You can't warn a bot!",
+        "warning": "Warning!",
+        "field": {
+          "_1": "You're being warned by an administrator.",
+          "_2": "Reason:",
+          "_3": "Admin:"
+        }
+      },
+      "cs": {
+        "usage": "Použití: ,warn",
+        "botWarned": "Nemůžeš warnout bota!",
+        "warning": "Upozornění!",
+        "field": {
+          "_1": "Jsi varován administrátorem.",
+          "_2": "Důvod:",
+          "_3": "Admin:"
+        }
+      },
+      "isv": {
+        "usage": "Upotrěba: ,warn",
+        "botWarned": "Bota ne možeš warnuti!",
+        "warning": "Ostražno!",
+        "field": {
+          "_1": "Jesi ostrěženy/upozornjeny administratorom.",
+          "_2": "Dovod:",
+          "_3": "Admin:"
+        }
+      },
+      "ua": {
+        "usage": "Використано: ,warn",
+        "botWarned": "Не можеш попередити бота!",
+        "warning": "Увага!",
+        "field": {
+          "_1": "Тебе попередив адміністратор",
+          "_2": "Причина:",
+          "_3": "Адмін:"
+        }
+      }
+    },
+    "unmute": {
+      "en": "is unmuted.",
+      "cs": "je unmutnutý.",
+      "isv": "jest odmolčeny.",
+      "ua": "розмучений"
+    },
+    "unban": {
+      "en": {
+        "reason": "Ban has expired",
+        "response": "is unbanned."
+      },
+      "cs": {
+        "reason": "Ban vypršel",
+        "response": "je odbanován."
+      },
+      "isv": {
+        "reason": "Ban expiroval",
+        "response": "jest odbanovany."
+      },
+      "ua": {
+        "reason": "Термін блокування скінчився",
+        "response": "розблокований."
+      }
+    },
+    "say": {
+      "en": {
+        "argumentError": "The first argument needs to be a pinged channel (#channel)",
+        "channelError": "You didn't ping a text channel or a thread channel!",
+        "inputError": "You need to type in the content of the message!"
+      },
+      "cs": {
+        "argumentError": "První argument musí být pingnutý kanál (#kanál)",
+        "channelError": "Nepingnul jsi textový kanál ani vlákno!",
+        "inputError": "Musíš zadat obsah zprávy!"
+      },
+      "isv": {
+        "argumentError": "Prvy argument prikazu trěbuje byti ping jestvujučego kanala (#kanal)",
+        "channelError": "Ne pingnul jesi textovy kanal ili thread!",
+        "inputError": "Potrěbuješ vpisati tekst do poslanja!"
+      },
+      "ua": {
+        "argumentError": "Першим аргументом мусить бути викликаний канал (#канал)",
+        "channelError": "Ти не викликав жодного каналу або гілки!",
+        "inputError": "Мусиш написати текст повідомлення!"
+      }
+    },
+    "report": {
+      "en": {
+        "selfReport": "You can't report yourself!",
+        "botReport": "You can't report a bot!",
+        "noPing": "You need to specify who you're gonna report through a @ping",
+        "noText": "You need to specify a reason for the report",
+        "title": "Report",
+        "author": "Author",
+        "reported": "Reported user",
+        "reason": "Reason",
+        "atChannel": "Reported in channel"
+      },
+      "cs": {
+        "selfReport": "Nemůžeš nahlásit sebe!",
+        "botReport": "Nemůžeš nahlásit bota",
+        "noPing": "Musíš určit, koho chceš nahlásit přes @ping",
+        "noText": "Musíš určit důvod nahlášení",
+        "title": "Nahlášení",
+        "author": "Autor",
+        "reported": "Nahlášený",
+        "reason": "Důvod",
+        "atChannel": "Nahlášeno v kanálu"
+      },
+      "isv": {
+        "selfReport": "Ne možeš reportnuti sebe!",
+        "botReport": "Ne možeš reportnuti bota",
+        "noPing": "Napiši do prikaza, kogo reportuješ @pingom",
+        "noText": "Potrěbuješ vpisati tekst do reporta!",
+        "title": "Report",
+        "author": "Avtor",
+        "reported": "Reportnuty Člověk",
+        "reason": "Dovod",
+        "atChannel": "Report byl v kanalu"
+      },
+      "ua": {
+        "selfReport": "Не можеш скласти скаргу на себе!",
+        "botReport": "Не можеш скласти скаргу на бота",
+        "noPing": "Мусиш зазначити, на кого хочеш поскаржитися за допомогою @виклику",
+        "noText": "Мусиш вписати повідомлення до скарги!",
+        "title": "Скарга",
+        "author": "Автор",
+        "reported": "Скарга на",
+        "reason": "Причина",
+        "atChannel": "Скарга відбулася у каналі"
+      }
+    },
+    "ram": {
+      "en": {
+        "quotes": [
+          "yummy",
+          "bon appetit!",
+          "nyaaam!",
+          "so freaking good!",
+          "I need more!",
+          "my stomach ain't full yet...",
+          "what a nice flavour!",
+          "gimme more RAM!",
+          "I'd eat a bit more..."
+        ],
+        "title": {
+          "_1": "I'm eating",
+          "_2": "MB of RAM right now"
+        }
+      },
+      "cs": {
+        "quotes": [
+          "mňamka!",
+          "mňam do pí*i!",
+          "dal bych si trošku víc...",
+          "dobrou chuť!",
+          "ještě nemám plný bříško...",
+          "sněd bych ještě tunu!",
+          "dej mi víc RAMky!",
+          "mega dobrota!"
+        ],
+        "title": {
+          "_1": "Teď žeru",
+          "_2": "MB RAMky"
+        }
+      },
+      "isv": {
+        "quotes": [
+          "vkųsno!",
+          "bon appetit!",
+          "njam!",
+          "kurva dobro jedivo!",
+          "hčų sjedati vyše!",
+          "ješče ne imam polno brjuho...",
+          "kaky dobry vkųs!",
+          "davaj vyše RAM!",
+          "pojedal byh vyše..."
+        ],
+        "title": {
+          "_1": "Tutčas žrų",
+          "_2": "MB RAM pamęti"
+        }
+      },
+      "ua": {
+        "quotes": [
+          "смачно",
+          "смачного!",
+          "няям!",
+          "смакотааа!",
+          "Хочу ще!",
+          "я все ще голодний...",
+          "принесеш мені ще смаколиків?",
+          "хочу більше оперативки!",
+          "Я б ще з'їв..."
+        ],
+        "title": {
+          "_1": "Жеру",
+          "_2": "МБ оперативки"
+        }
+      }
+    },
+    "pogoda": {
+      "en": {
+        "noLocation": "Specify a location",
+        "wrongLocation": "**Wrong** location",
+        "weatherAt": "Weather at",
+        "timeZone": "Time zone",
+        "temperature": "Temperature",
+        "wind": "Wind",
+        "feelsLikeTemperature": "Feels like temperature",
+        "humidity": "Humidity"
+      },
+      "cs": {
+        "noLocation": "Urči lokaci",
+        "wrongLocation": "**Špatně zadaná** lokace",
+        "weatherAt": "Počasí v",
+        "timeZone": "Časová zóna",
+        "temperature": "Teplota",
+        "wind": "Vítr",
+        "feelsLikeTemperature": "Pocitová teplota",
+        "humidity": "Vlhkost"
+      },
+      "isv": {
+        "noLocation": "Prošu naznači město",
+        "wrongLocation": "**Nepravilno** město",
+        "weatherAt": "Pogoda v",
+        "timeZone": "Časova Zona",
+        "temperature": "Temperatura",
+        "wind": "Větr",
+        "feelsLikeTemperature": "Čuvstvova temperatura",
+        "humidity": "Vlažnost"
+      },
+      "ua": {
+        "noLocation": "Зазначте місцевість",
+        "wrongLocation": "**Хибна** місцевість",
+        "weatherAt": "Погода у",
+        "timeZone": "Часова зона",
+        "temperature": "Температура",
+        "wind": "Вітер",
+        "feelsLikeTemperature": "Почувається як",
+        "humidity": "Вологість"
+      }
+    },
+    "nick": {
+      "en": {
+        "symbolLimitError": "Your nickname can be only **32** symbols long",
+        "noMANAGE_NICKNAMES": "You need the permission MANAGE_NICKNAMES to change someone else's nickname",
+        "noCHANGE_NICKNAME": "You need the permission CHANGE_NICKNAME to change your nickname",
+        "selfNickChanged": "Your nickname has been changed to",
+        "someonesNickChanged": "'s** nickname changed to"
+      },
+      "cs": {
+        "symbolLimitError": "Tvoje přezdívka může mít pouze **32** symbolů",
+        "noMANAGE_NICKNAMES": "Potřebuješ povolení MANAGE_NICKNAMES, abys změnil přezdívku někomu jinému",
+        "noCHANGE_NICKNAME": "Potřebuješ povolení CHANGE_NICKNAME, aby sis změnil přezdívku",
+        "selfNickChanged": "Tvůj nickname byl změněn na",
+        "someonesNickChanged": "ův/ova** přezdívka změněna na"
+      },
+      "isv": {
+        "symbolLimitError": "Nickname može byti dolgy maksimalno **32** symbolov!",
+        "noMANAGE_NICKNAMES": "Potrěbuješ dozvoljenje MANAGE_NICKNAMES aby ty mogl izměniti nickname někogo drugogo",
+        "noCHANGE_NICKNAME": "Potrěbuješ dozvoljenje CHANGE_NICKNAME aby ty mogl izměniti svoj nickname",
+        "selfNickChanged": "Tvoj nickname byl izměnjen na",
+        "someonesNickChanged": "ov/ovoj** nickname izměnjen na"
+      },
+      "ua": {
+        "symbolLimitError": "Твоє ім'я може бути до **32** символів",
+        "noMANAGE_NICKNAMES": "Потребуєш дозволу MANAGE_NICKNAMES щоб змінити чиєсь ім'я",
+        "noCHANGE_NICKNAME": "Потребуєш дозволу CHANGE_NICKNAME щоб змінити своє ім'я",
+        "selfNickChanged": "Твоє ім'я змінилося на",
+        "someonesNickChanged": "ове** ім'я змінилося на"
+      }
+    },
+    "mute": {
+      "en": {
+        "invalidTimeFormat": "Invalid time format input. Valid time format: \"10d\" - d = days, h = hours, m = minutes",
+        "invalidTimeSymbol": "Use \"m\" for minutes, \"h\" for hours and \"d\" for days",
+        "stillMuted": "is still muted right now.",
+        "noMuteRole": "This server has no \"Muted\" role",
+        "targetNotMutable": "I can't mute this user",
+        "muted": "is muted for"
+      },
+      "cs": {
+        "invalidTimeFormat": "Byl zadán neplatný časový formát. Platný formát: \"10d\" - d = dny, h = hodiny, m = minuty",
+        "invalidTimeSymbol": "Použij \"m\" pro minuty, \"h\" pro hodiny a \"d\" pro dny",
+        "stillMuted": "je stále ještě mutnutý.",
+        "noMuteRole": "Tento server nemá žádnou roli \"Muted\"",
+        "targetNotMutable": "Nemohu mutnout tohoto uživatele",
+        "muted": "je mutnutý na"
+      },
+      "isv": {
+        "invalidTimeFormat": "Zly časovy format byl zadany. Platny format: \"10d\" - d = dnji, h = časiny, m = minuty",
+        "invalidTimeSymbol": "Upotrěbi \"m\", \"h\" ili \"d\" dlja minut, časin ili dnjev.",
+        "stillMuted": "jest ješče umolčeny tutčas.",
+        "noMutedRole": "Tutoj server ne ima rolju \"Muted\"",
+        "targetNotMutable": "Ne mogu umolčiti tutogo člověka",
+        "muted": "jest umolčeny na čas"
+      },
+      "ua": {
+        "invalidTimeFormat": "Неправильний формат дати. Правильний: \"10d\" - d = дні, h = години, m = хвилини",
+        "invalidTimeSymbol": "Використовуй \"m\" для хвилин, \"h\" для годин та \"d\" для днів",
+        "stillMuted": "все ще зам'ючений.",
+        "noMuteRole": "У цього сервера немає ролі \"Muted\"",
+        "targetNotMutable": "Не можу зам'ютити цього користувача",
+        "muted": "зам'ючений на"
+      }
+    },
+    "ban": {
+      "en": {
+        "invalidTimeFormat": "Invalid time format input. Valid time format: \"10d\" - d = days, h = hours, m = minutes",
+        "invalidTimeSymbol": "Use \"m\" for minutes, \"h\" for hours and \"d\" for days",
+        "stillBanned": "is still banned right now.",
+        "targetNotBannable": "I can't ban this user",
+        "banned": "is banned for"
+      },
+      "cs": {
+        "invalidTimeFormat": "Byl zadán neplatný časový formát. Platný formát: \"10d\" - d = dny, h = hodiny, m = minuty",
+        "invalidTimeSymbol": "Použij \"m\" pro minuty, \"h\" pro hodiny a \"d\" pro dny",
+        "stillBanned": "je stále ještě zabanovaný.",
+        "targetNotBannable": "Nemohu zabanovat tohoto uživatele",
+        "banned": "je zabanován na"
+      },
+      "isv": {
+        "invalidTimeFormat": "Zly časovy format byl zadany. Platny format: \"10d\" - d = dnji, h = časiny, m = minuty",
+        "invalidTimeSymbol": "Upotrěbi \"m\", \"h\" ili \"d\" dlja minut, časin ili dnjev.",
+        "stillBanned": "jest ješče zabanovany tutčas.",
+        "targetNotBannable": "Ne mogu zabanovati tutogo člověka",
+        "banned": "jest zabanovany na čas"
+      },
+      "ua": {
+        "invalidTimeFormat": "Неправильний формат дати. Правильний: \"10d\" - d = дні, h = години, m = хвилини",
+        "invalidTimeSymbol": "Використовуй \"m\" для хвилин, \"h\" для годин та \"d\" для днів",
+        "stillBanned": "все ще заблокований.",
+        "targetNotBannable": "Не можу заблокувати цього користувача",
+        "banned": "заблокований на"
+      }
+    },
+    "kick": {
+      "en": {
+        "usage": "Usage: ,kick",
+        "targetNotKickable": "I can't kick this user",
+        "kicked": "is kicked for"
+      },
+      "cs": {
+        "usage": "Použití: ,kick",
+        "targetNotKickable": "Nemohu mutnout tohoto uživatele",
+        "kicked": "je kicknut"
+      },
+      "isv": {
+        "usage": "Upotrěba: ,kick",
+        "targetNotKickable": "Ne mogu umolčiti tutogo člověka",
+        "kicked": "jest kicknuty"
+      },
+      "ua": {
+        "usage": "Використано: ,kick",
+        "targetNotKickable": "Не можу м'ютнути цього користувача",
+        "kicked": "зам'ючений"
+      }
+    },
+    "members": {
+      "en": {
+        "_1": "now has",
+        "_2": "members."
+      },
+      "cs": {
+        "_1": "teď má",
+        "_2": "členů."
+      },
+      "isv": {
+        "_1": "utčas ima",
+        "_2": "členov."
+      },
+      "ua": {
+        "_1": "зараз має",
+        "_2": "учасників."
+      }
+    },
+    "listWarns": {
+      "en": {
+        "botWarned": "You can't warn a bot!",
+        "warningsIsNaN": "The amount of warnings listed needs to be specified via a number.",
+        "invalidId": "This ID does not exist in the database.",
+        "response": {
+          "_1": "By:",
+          "_2": "at",
+          "_3": "reason:",
+          "_4": "Warnings of"
+        }
+      },
+      "cs": {
+        "botWarned": "Nemůžeš warnout bota!",
+        "warningsIsNaN": "Počet načtených warnů musí být vyjádřen číslem.",
+        "invalidId": "Toto ID neexistuje v databázi.",
+        "response": {
+          "_1": "Od:",
+          "_2": "dne",
+          "_3": "důvod:",
+          "_4": "Warny"
+        }
+      },
+      "isv": {
+        "botWarned": "Ne možeš warnuti bota!",
+        "warningsIsNaN": "Množstvo warnov potrěbuje byti naznačeno čisliceju.",
+        "invalidId": "Tuto ID ne jestvuje v databazi.",
+        "response": {
+          "_1": "Od:",
+          "_2": "dnja",
+          "_3": "dovod:",
+          "_4": "Warny koristnika"
+        }
+      },
+      "ua": {
+        "botWarned": "Не можеш попередити бота!",
+        "warningsIsNaN": "Кількість попереджень мусить бути зазначена числом.",
+        "invalidId": "Цього ID не виявлено у базі даних.",
+        "response": {
+          "_1": "Від:",
+          "_2": "днів",
+          "_3": "Причина:",
+          "_4": "Попередження користувача"
+        }
+      }
+    },
+    "listMutes": {
+      "en": {
+        "botMuted": "You can't mute a bot!",
+        "mutesIsNaN": "The amount of mutes listed needs to be specified via a number.",
+        "invalidId": "This ID does not exist in the database.",
+        "response": {
+          "_1": "By:",
+          "_2": "at",
+          "_3": "reason:",
+          "_4": "until",
+          "_5": "Mutes of"
+        }
+      },
+      "cs": {
+        "botWarned": "Nemůžeš warnout bota!",
+        "mutesIsNaN": "Počet načtených mutů musí být vyjádřen číslem.",
+        "invalidId": "Toto ID neexistuje v databázi.",
+        "response": {
+          "_1": "Od:",
+          "_2": "dne",
+          "_3": "důvod:",
+          "_4": "do",
+          "_5": "Muty"
+        }
+      },
+      "isv": {
+        "botWarned": "Ne možeš warnuti bota!",
+        "mutesIsNaN": "Množstvo umolčenjij potrěbuje byti naznačeno čisliceju.",
+        "invalidId": "Tuto ID ne jestvuje v databazi.",
+        "response": {
+          "_1": "Od:",
+          "_2": "dnja",
+          "_3": "dovod:",
+          "_4": "do",
+          "_5": "Umolčenja"
+        }
+      },
+      "ua": {
+        "botMuted": "Не можеш зам'ютити бота!",
+        "mutesIsNaN": "Кількість м'ютів мусить бути зазначена числом.",
+        "invalidId": "Цього ID не виявлено у базі даних.",
+        "response": {
+          "_1": "Ким:",
+          "_2": "дня",
+          "_3": "причина:",
+          "_4": "до",
+          "_5": "Зам'ючений за"
+        }
+      }
+    },
+    "listKicks": {
+      "en": {
+        "botKicked": "You can't kick a bot!",
+        "kicksIsNaN": "The amount of kicks listed needs to be specified via a number.",
+        "invalidId": "This ID does not exist in the database.",
+        "response": {
+          "_1": "By:",
+          "_2": "at",
+          "_3": "reason:",
+          "_4": "Kicks of"
+        }
+      },
+      "cs": {
+        "botKicked": "Nemůžeš kicknout bota!",
+        "kicksIsNaN": "Počet načtených kicků musí být vyjádřen číslem.",
+        "invalidId": "Toto ID neexistuje v databázi.",
+        "response": {
+          "_1": "Od:",
+          "_2": "dne",
+          "_3": "důvod:",
+          "_4": "Kicky"
+        }
+      },
+      "isv": {
+        "botKicked": "Ne možeš kicknuti bota!",
+        "wkicksIsNaN": "Množstvo kickov potrěbuje byti naznačeno čisliceju.",
+        "invalidId": "Tuto ID ne jestvuje v databazi.",
+        "response": {
+          "_1": "Od:",
+          "_2": "dnja",
+          "_3": "dovod:",
+          "_4": "Kicky koristnika"
+        }
+      },
+      "ua": {
+        "botKicked": "Не можешь вигнати бота!",
+        "kicksIsNaN": "Кількість кіків мусить бути зазначена числом.",
+        "invalidId": "Цього ID не виявлено у базі даних.",
+        "response": {
+          "_1": "Ким:",
+          "_2": "дня",
+          "_3": "причина:",
+          "_4": "Кіки користувача"
+        }
+      }
+    },
+    "listBans": {
+      "en": {
+        "botBanned": "You can't ban a bot!",
+        "bansIsNaN": "The amount of bans listed needs to be specified via a number.",
+        "invalidId": "This ID does not exist in the database.",
+        "response": {
+          "_1": "By:",
+          "_2": "at",
+          "_3": "reason:",
+          "_4": "until",
+          "_5": "Bans of"
+        }
+      },
+      "cs": {
+        "botBanned": "Nemůžeš zabanovat bota!",
+        "bansIsNaN": "Počet načtených banů musí být vyjádřen číslem.",
+        "invalidId": "Toto ID neexistuje v databázi.",
+        "response": {
+          "_1": "Od:",
+          "_2": "dne",
+          "_3": "důvod:",
+          "_4": "do",
+          "_5": "Bany"
+        }
+      },
+      "isv": {
+        "botBanned": "Ne možeš banuti bota!",
+        "bansIsNaN": "Množstvo banov potrěbuje byti naznačeno čisliceju.",
+        "invalidId": "Tuto ID ne jestvuje v databazi.",
+        "response": {
+          "_1": "Od:",
+          "_2": "dnja",
+          "_3": "dovod:",
+          "_4": "do",
+          "_5": "Bany"
+        }
+      },
+      "ua": {
+        "botBanned": "Не можеш заблокувати бота!",
+        "bansIsNaN": "Кількість блокувань мусить бути зазначена числом.",
+        "invalidId": "Цього ID не виявлено у базі даних.",
+        "response": {
+          "_1": "Ким:",
+          "_2": "дня",
+          "_3": "причина:",
+          "_4": "до",
+          "_5": "Блокування користувача"
+        }
+      }
+    },
+    "hertz": {
+      "en": {
+        "_1": "is now running at",
+        "_2": "clock rate"
+      },
+      "cs": {
+        "_1": "teď běží",
+        "_2": "hodinového taktu"
+      },
+      "isv": {
+        "_1": "tutčas rabotaje",
+        "_2": "taktovoju bystrostju"
+      },
+      "ua": {
+        "_1": "зараз працює з",
+        "_2": "тактовою частотою"
+      }
+    },
+    "clear": {
+      "en": {
+        "noAmount": "Specify the amount of messages to be bulk deleted (max 100 messages)",
+        "isNaN": "Specify a non-negative whole number of messages to be bulk deleted (max 100 messages)",
+        "maxExceeded": "You can't delete more than 100 messages at a time"
+      },
+      "cs": {
+        "noAmount": "Urči počet smazaných zpráv (maximálně 100 zpráv)",
+        "isNaN": "Urči nezáporný celočíselný počet zpráv k odstranění (maximálně 100 zpráv)",
+        "maxExceeded": "Nemůžeš odstranit více než 100 zpráv najednou"
+      },
+      "isv": {
+        "noAmount": "Napiši cifru kolikosti odstraněnyh poslanjij! (maks 100 poslanjij)",
+        "isNaN": "Napiši non-negativnu cělu cifru poslanjij k odstranjenju (max 100 poslanjij)",
+        "maxExceeded": "Ne možeš odstraniti vyše než 100 poslanjij"
+      },
+      "ua": {
+        "noAmount": "Зазначте кількість повідомлень до вилучення (максимально 100)",
+        "isNaN": "Зазначте ціле позитивне число повідомлень до вилучення (максимально 100)",
+        "maxExceeded": "Не можеш вилучити більше 100 повідомлень за раз"
+      }
+    },
+    "generalErrors": {
+      "en": {
+        "permissionError": "You don't have the required permissions to use this command!",
+        "missingRequiredRoles": {
+          "_1":"You need to have the roles",
+          "_2":" to use this command!"
+        },
+        "invalidSyntax": "Invalid syntax. Use:"
+      },
+      "cs": {
+        "permissionError": "Nemáš potřebná oprávnění pro použití tohoto příkazu!",
+        "missingRequiredRoles": {
+          "_1":"Musíš mít role",
+          "_2":", abys mohl použít tento příkaz"
+        },
+        "invalidSyntax": "Nesprávná syntaxe. Použij:"
+      },
+      "isv": {
+        "permissionError": "Ne imaš permisije, aby ty mogl upotrěbjati tutoj prikaz.",
+        "missingRequiredRoles": {
+          "_1":"Potrěbuješ iměti rolje",
+          "_2":", aby upotrěbjati tutoj prikaz!"
+        },
+        "invalidSyntax": "Nepravilna syntaksa. Upotrěbi:"
+      },
+      "ua": {
+        "permissionError": "Не маєш дозволу щоб використовувати цю команду!",
+        "missingRequiredRoles": {
+          "_1":"В тебе мають бути ролі",
+          "_2":" щоб використати цю команду!"
+        },
+        "invalidSyntax": "Неправильна форма. Використовуй:"
+      }
+    }
+  }
+}
